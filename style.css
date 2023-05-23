@@ -1,0 +1,76 @@
+body {
+  background-image: linear-gradient(#f3a632, #f05d0e);
+  color: white;
+}
+
+.scorri {
+  color: white;
+  font-size: x-large;
+}
+.nome {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  font-size: 5em;
+}
+
+.mail {
+  text-align: center;
+  margin-bottom: 3em;
+  font-size: 2em;
+}
+#presentazione {
+  text-align: center;
+}
+#presentazione p {
+  font-size: 1.5em;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+.foto_cv {
+  width: 25em;
+  margin-bottom: 3em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.tabella {
+  padding: 3em;
+  font-size: 1.3em;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.linkedin {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  border-color: none;
+  margin: auto;
+  background-image: url("https://github.com/OrangeNando/firstChallenge/blob/main/linkedin.png?raw=true");
+}
+
+.github {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border-color: none;
+  margin: auto;
+  background-image: url("https://github.com/OrangeNando/firstChallenge/blob/main/GitHub-Mark.png?raw=true");
+  background-size: 15rem;
+}
+
+#footer {
+  margin-top: 3em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 1.3em;
+}
